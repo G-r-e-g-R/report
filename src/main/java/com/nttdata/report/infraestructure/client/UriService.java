@@ -69,10 +69,10 @@ public class UriService {
      * Servicio de Transaction: Listado de movimientos por afiliacion de cuentas.
      */
     public static final
-    String TRANSACTION_ACCOUNT_GET_BY_IDAFFILIATION = "/movements/accounts/affiliation/{id}";
+    String TRANSACTION_ACCOUNT_GET_BY_IDAFFILIATION = "/transactions/accounts/affiliation/{id}";
     /**
      * Servicio de Transaction: Listado de movimientos por afiliacion de credito.
      */
     public static final
-    String TRANSACTION_CREDIT_GET_BY_IDAFFILIATION = "/movements/credits/affiliation/{id}";
+    String TRANSACTION_CREDIT_GET_BY_IDAFFILIATION = "/transactions/credits/affiliation/{id}";
 }

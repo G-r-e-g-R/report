@@ -32,7 +32,7 @@ public class CreditMovementReportController {
      * @param idCredit codigo de credito.
      * @return Flux<ResponseEntity<AccountBalanceReport>>
      */
-    @GetMapping("/movements/{idCustomer/{idCredit}}")
+    @GetMapping("/movements/{idCustomer}/{idCredit}")
     public Flux<ResponseEntity<CreditMovementReport>>
     getById(@PathVariable final String idCustomer,
             @PathVariable final String idCredit) {
